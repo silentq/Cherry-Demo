@@ -1,0 +1,55 @@
+[gd_scene load_steps=7 format=3 uid="uid://btqtvp71kubb2"]
+
+[ext_resource type="Script" path="res://Levels/ready.gd" id="1_k3ne7"]
+[ext_resource type="Script" path="res://Levels/Next Level.gd" id="2_sd0bj"]
+[ext_resource type="Script" path="res://Levels/Time Remaining.gd" id="3_qed2p"]
+[ext_resource type="PackedScene" uid="uid://s700p77xsqvu" path="res://Levels/l_1bg.tscn" id="4_xq5so"]
+[ext_resource type="AudioStream" uid="uid://bedmkamemp0o4" path="res://SFX/Fruit collect 1.wav" id="5_5yxuc"]
+[ext_resource type="AudioStream" uid="uid://dl53u1tyuu0bp" path="res://SFX/Confirm 1.wav" id="6_b7pw3"]
+
+[node name="ready" type="Node2D"]
+script = ExtResource("1_k3ne7")
+
+[node name="Button" type="Button" parent="."]
+offset_left = 320.0
+offset_top = 344.0
+offset_right = 832.0
+offset_bottom = 512.0
+text = "Press A to Continue"
+
+[node name="Label" type="Label" parent="."]
+offset_left = 472.0
+offset_top = 144.0
+offset_right = 680.0
+offset_bottom = 216.0
+theme_override_font_sizes/font_size = 50
+text = "READY?"
+horizontal_alignment = 1
+
+[node name="Next Level" type="Label" parent="."]
+offset_left = 296.0
+offset_top = 216.0
+offset_right = 488.0
+offset_bottom = 328.0
+theme_override_font_sizes/font_size = 40
+horizontal_alignment = 1
+script = ExtResource("2_sd0bj")
+
+[node name="Time Remaining" type="Label" parent="."]
+offset_left = 616.0
+offset_top = 216.0
+offset_right = 808.0
+offset_bottom = 328.0
+theme_override_font_sizes/font_size = 40
+horizontal_alignment = 1
+script = ExtResource("3_qed2p")
+
+[node name="L1BG" parent="." instance=ExtResource("4_xq5so")]
+
+[node name="Cherry_Collect" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("5_5yxuc")
+
+[node name="Confirm" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("6_b7pw3")
+
+[connection signal="pressed" from="Button" to="." method="_on_button_pressed"]

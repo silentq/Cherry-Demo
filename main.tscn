@@ -1,0 +1,62 @@
+[gd_scene load_steps=6 format=3 uid="uid://ds48s42vxdvey"]
+
+[ext_resource type="Script" path="res://main.gd" id="1_jy2uh"]
+[ext_resource type="PackedScene" uid="uid://doo7j20ut1c26" path="res://Levels/l_7_bg.tscn" id="2_isxjy"]
+[ext_resource type="Script" path="res://Screen.gd" id="3_vwwa8"]
+[ext_resource type="AudioStream" uid="uid://d10spfho5tjka" path="res://SFX/Select 1.wav" id="4_e80j8"]
+[ext_resource type="AudioStream" uid="uid://dl53u1tyuu0bp" path="res://SFX/Confirm 1.wav" id="5_3cybx"]
+
+[node name="Main" type="Node2D"]
+script = ExtResource("1_jy2uh")
+
+[node name="Play" type="Button" parent="."]
+offset_left = 456.0
+offset_top = 192.0
+offset_right = 696.0
+offset_bottom = 296.0
+focus_neighbor_top = NodePath("../Quit")
+focus_neighbor_bottom = NodePath("../Screen")
+theme_override_colors/font_focus_color = Color(1, 0, 0, 1)
+text = "Play"
+
+[node name="Quit" type="Button" parent="."]
+offset_left = 456.0
+offset_top = 464.0
+offset_right = 696.0
+offset_bottom = 576.0
+focus_neighbor_top = NodePath("../Screen")
+focus_neighbor_bottom = NodePath("../Play")
+theme_override_colors/font_focus_color = Color(1, 0, 0, 1)
+text = "Quit"
+
+[node name="l_7bg" parent="." instance=ExtResource("2_isxjy")]
+
+[node name="Label" type="Label" parent="."]
+offset_left = 320.0
+offset_top = 40.0
+offset_right = 832.0
+offset_bottom = 160.0
+theme_override_font_sizes/font_size = 80
+text = "Cherry Demo"
+horizontal_alignment = 1
+
+[node name="Screen" type="Button" parent="."]
+offset_left = 456.0
+offset_top = 328.0
+offset_right = 696.0
+offset_bottom = 440.0
+focus_neighbor_top = NodePath("../Play")
+focus_neighbor_bottom = NodePath("../Quit")
+theme_override_colors/font_focus_color = Color(1, 0, 0, 1)
+script = ExtResource("3_vwwa8")
+
+[node name="Select" type="AudioStreamPlayer2D" parent="."]
+position = Vector2(456, 328)
+stream = ExtResource("4_e80j8")
+
+[node name="Confirm" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("5_3cybx")
+
+[connection signal="pressed" from="Play" to="." method="_on_play_pressed"]
+[connection signal="pressed" from="Quit" to="." method="_on_quit_pressed"]
+[connection signal="pressed" from="Screen" to="." method="_on_screen_pressed"]

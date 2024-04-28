@@ -1,0 +1,14 @@
+Label
+ColorRect
+TextureRect
+CanvasLayer
+PanelContainer
+VBoxContainer
+AudioStreamPlayer
+AudioStreamPlayer2D
+AnimationPlayer
+Button
+CPUParticles2D
+GPUParticles2D
+AnimatedSprite2D
+Node2D

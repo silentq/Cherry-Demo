@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://bity763ifmnet"]
+
+[ext_resource type="AudioStream" uid="uid://ca5g8ujarwicx" path="res://Music/Running Action.mp3" id="1_68ycn"]
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer"]
+stream = ExtResource("1_68ycn")
+volume_db = -15.671
+autoplay = true

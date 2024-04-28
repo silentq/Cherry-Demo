@@ -1,0 +1,71 @@
+[gd_scene load_steps=5 format=3 uid="uid://bwjpng0s8bwdo"]
+
+[ext_resource type="Script" path="res://PauseMenu.gd" id="1_i3u7h"]
+[ext_resource type="Script" path="res://Screen.gd" id="2_w3ksu"]
+[ext_resource type="AudioStream" uid="uid://dl53u1tyuu0bp" path="res://SFX/Confirm 1.wav" id="3_ou4sm"]
+[ext_resource type="AudioStream" uid="uid://d10spfho5tjka" path="res://SFX/Select 1.wav" id="4_j432b"]
+
+[node name="PauseMenu" type="Control"]
+process_mode = 3
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_i3u7h")
+
+[node name="Resume" type="Button" parent="."]
+layout_mode = 2
+offset_left = 384.0
+offset_top = 240.0
+offset_right = 768.0
+offset_bottom = 271.0
+focus_neighbor_top = NodePath("../Quit")
+focus_neighbor_bottom = NodePath("../Restart")
+theme_override_colors/font_focus_color = Color(1, 0, 0, 1)
+text = "Resume"
+
+[node name="Restart" type="Button" parent="."]
+layout_mode = 2
+offset_left = 384.0
+offset_top = 280.0
+offset_right = 768.0
+offset_bottom = 311.0
+focus_neighbor_top = NodePath("../Resume")
+focus_neighbor_bottom = NodePath("../Screen")
+theme_override_colors/font_focus_color = Color(1, 0, 0, 1)
+text = "Restart"
+
+[node name="Screen" type="Button" parent="."]
+layout_mode = 2
+offset_left = 384.0
+offset_top = 320.0
+offset_right = 768.0
+offset_bottom = 352.0
+focus_neighbor_top = NodePath("../Restart")
+focus_neighbor_bottom = NodePath("../Quit")
+theme_override_colors/font_focus_color = Color(1, 0, 0, 1)
+script = ExtResource("2_w3ksu")
+
+[node name="Quit" type="Button" parent="."]
+layout_mode = 2
+offset_left = 384.0
+offset_top = 360.0
+offset_right = 768.0
+offset_bottom = 391.0
+focus_neighbor_top = NodePath("../Screen")
+focus_neighbor_bottom = NodePath("../Resume")
+theme_override_colors/font_focus_color = Color(1, 0, 0, 1)
+text = "Quit"
+
+[node name="Confirm" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("3_ou4sm")
+
+[node name="Select" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("4_j432b")
+
+[connection signal="pressed" from="Resume" to="." method="_on_resume_pressed"]
+[connection signal="pressed" from="Restart" to="." method="_on_restart_pressed"]
+[connection signal="pressed" from="Screen" to="." method="_on_screen_pressed"]
+[connection signal="pressed" from="Quit" to="." method="_on_quit_pressed"]

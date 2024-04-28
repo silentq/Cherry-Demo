@@ -1,0 +1,63 @@
+[gd_scene load_steps=7 format=3 uid="uid://uhut2ghvn15w"]
+
+[ext_resource type="Script" path="res://Levels/win.gd" id="1_g1qqa"]
+[ext_resource type="Script" path="res://Levels/Time Remaining.gd" id="3_ja6fg"]
+[ext_resource type="PackedScene" uid="uid://doo7j20ut1c26" path="res://Levels/l_7_bg.tscn" id="3_oshva"]
+[ext_resource type="AudioStream" uid="uid://bedmkamemp0o4" path="res://SFX/Fruit collect 1.wav" id="4_6fiei"]
+[ext_resource type="AudioStream" uid="uid://dl53u1tyuu0bp" path="res://SFX/Confirm 1.wav" id="5_a8p5j"]
+[ext_resource type="AudioStream" uid="uid://d10spfho5tjka" path="res://SFX/Select 1.wav" id="6_546lf"]
+
+[node name="win" type="Node2D"]
+script = ExtResource("1_g1qqa")
+
+[node name="Button" type="Button" parent="."]
+offset_left = 397.0
+offset_top = 341.0
+offset_right = 768.0
+offset_bottom = 468.0
+focus_neighbor_top = NodePath("../Button2")
+focus_neighbor_bottom = NodePath("../Button2")
+theme_override_colors/font_focus_color = Color(1, 0, 0, 1)
+text = "Restart"
+
+[node name="Label" type="Label" parent="."]
+offset_left = 480.0
+offset_top = 144.0
+offset_right = 680.0
+offset_bottom = 216.0
+theme_override_font_sizes/font_size = 50
+text = "You Win!"
+horizontal_alignment = 1
+
+[node name="Time Remaining" type="Label" parent="."]
+offset_left = 400.0
+offset_top = 214.0
+offset_right = 764.0
+offset_bottom = 328.0
+theme_override_font_sizes/font_size = 40
+horizontal_alignment = 1
+script = ExtResource("3_ja6fg")
+
+[node name="Button2" type="Button" parent="."]
+offset_left = 397.0
+offset_top = 480.0
+offset_right = 767.0
+offset_bottom = 621.0
+focus_neighbor_top = NodePath("../Button")
+focus_neighbor_bottom = NodePath("../Button")
+theme_override_colors/font_focus_color = Color(1, 0, 0, 1)
+text = "Quit"
+
+[node name="l_7bg" parent="." instance=ExtResource("3_oshva")]
+
+[node name="Cherry_Collect" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("4_6fiei")
+
+[node name="Confirm" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("5_a8p5j")
+
+[node name="Select" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("6_546lf")
+
+[connection signal="pressed" from="Button" to="." method="_on_button_pressed"]
+[connection signal="pressed" from="Button2" to="." method="_on_button_2_pressed"]

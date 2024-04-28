@@ -1,0 +1,15 @@
+[gd_scene load_steps=3 format=3 uid="uid://dxvi17kjm0xru"]
+
+[ext_resource type="Script" path="res://BG.gd" id="1_3gc0c"]
+[ext_resource type="Texture2D" uid="uid://b6t4be3qd7t6c" path="res://Pixel Adventure 1/Free/Background/Pink.png" id="2_2l28y"]
+
+[node name="BG" type="ParallaxBackground"]
+script = ExtResource("1_3gc0c")
+
+[node name="ParallaxLayer" type="ParallaxLayer" parent="."]
+motion_mirroring = Vector2(1152, 0)
+
+[node name="Pink" type="Sprite2D" parent="ParallaxLayer"]
+position = Vector2(576, 324)
+scale = Vector2(18, 10.125)
+texture = ExtResource("2_2l28y")
