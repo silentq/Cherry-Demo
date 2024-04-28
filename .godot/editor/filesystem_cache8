@@ -1,59 +1,59 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1714282248
+::res://::1714282541
 BG.gd::GDScript::-1::1713818630::0::1::::<>ParallaxBackground<>::
-BG.tscn::PackedScene::8817491250794175706::1714281772::0::1::::<><>::res://BG.gd<>uid://b6t4be3qd7t6c::::res://Pixel Adventure 1/Free/Background/Pink.png
+BG.tscn::PackedScene::8817491250794175706::1714282257::0::1::::<><>::res://BG.gd<>uid://b6t4be3qd7t6c::::res://Pixel Adventure 1/Free/Background/Pink.png
 export_presets.cfg::TextFile::-1::1714263040::0::1::::<><>::
-GlobalAudio.tscn::PackedScene::2988670635204877695::1714281774::0::1::::<><>::uid://ca5g8ujarwicx::::res://Music/Running Action.mp3
+GlobalAudio.tscn::PackedScene::2988670635204877695::1714282259::0::1::::<><>::uid://ca5g8ujarwicx::::res://Music/Running Action.mp3
 icon.svg::CompressedTexture2D::4335147840014480638::1713794313::1713794317::1::::<><>::
 L1BG.gd::GDScript::-1::1714063351::0::1::::<>ParallaxBackground<>::
 main.gd::GDScript::-1::1714252177::0::1::::<>Node2D<>::
-main.tscn::PackedScene::8484565562355096412::1714281771::0::1::::<><>::res://main.gd<>uid://doo7j20ut1c26::::res://Levels/l_7_bg.tscn<>res://Screen.gd<>uid://d10spfho5tjka::::res://SFX/Select 1.wav<>uid://dl53u1tyuu0bp::::res://SFX/Confirm 1.wav
+main.tscn::PackedScene::8484565562355096412::1714282257::0::1::::<><>::res://main.gd<>uid://doo7j20ut1c26::::res://Levels/l_7_bg.tscn<>res://Screen.gd<>uid://d10spfho5tjka::::res://SFX/Select 1.wav<>uid://dl53u1tyuu0bp::::res://SFX/Confirm 1.wav
 PauseMenu.gd::GDScript::-1::1714241478::0::1::::<>Control<>::
-pause_menu.gdshader::Shader::-1::1714281774::0::1::::<><>::
-pause_menu.tscn::PackedScene::3950088968350824932::1714281773::0::1::::<><>::res://PauseMenu.gd<>res://Screen.gd<>uid://dl53u1tyuu0bp::::res://SFX/Confirm 1.wav<>uid://d10spfho5tjka::::res://SFX/Select 1.wav
+pause_menu.gdshader::Shader::-1::1714282259::0::1::::<><>::
+pause_menu.tscn::PackedScene::3950088968350824932::1714282259::0::1::::<><>::res://PauseMenu.gd<>res://Screen.gd<>uid://dl53u1tyuu0bp::::res://SFX/Confirm 1.wav<>uid://d10spfho5tjka::::res://SFX/Select 1.wav
 Running Action.mp3::AudioStreamMP3::4268914726355750060::1714258395::1714258396::1::::<><>::
 Screen.gd::GDScript::-1::1714228809::0::1::::<>Button<>::
-test.tscn::PackedScene::7447935040789836033::1714281771::0::1::::<><>::uid://cw2g4kory47fy::::res://Pixel Adventure 1/Free/Background/Blue.png<>uid://cbp6rxd7s65n2::::res://Pixel Adventure 1/Free/Terrain/Terrain (16x16).png<>uid://dkt1gh63hx1nr::::res://Player/player.tscn
-::res://Collectables/::1714281771
-cherry.tscn::PackedScene::76305597910390666::1714281771::0::1::::<><>::uid://dtu4v0atcwx8j::::res://Pixel Adventure 1/Free/Items/Fruits/Cherries.png
+test.tscn::PackedScene::7447935040789836033::1714282257::0::1::::<><>::uid://cw2g4kory47fy::::res://Pixel Adventure 1/Free/Background/Blue.png<>uid://cbp6rxd7s65n2::::res://Pixel Adventure 1/Free/Terrain/Terrain (16x16).png<>uid://dkt1gh63hx1nr::::res://Player/player.tscn
+::res://Collectables/::1714282257
+cherry.tscn::PackedScene::76305597910390666::1714282257::0::1::::<><>::uid://dtu4v0atcwx8j::::res://Pixel Adventure 1/Free/Items/Fruits/Cherries.png
 ::res://Global/::1714260578
 Game.gd::GDScript::-1::1714260578::0::1::::<>Node<>::
-::res://Levels/::1714281774
+::res://Levels/::1714282259
 Cherries Collected.gd::GDScript::-1::1714061914::0::1::::<>Label<>::
 Level.gd::GDScript::-1::1714260866::0::1::::<>Label<>::
-level_1.gd::GDScript::-1::1714281771::0::1::::<>Node2D<>::
-level_1.tscn::PackedScene::7592496803686309223::1714281772::0::1::::<><>::res://Levels/level_1.gd<>uid://dkt1gh63hx1nr::::res://Player/player.tscn<>uid://s700p77xsqvu::::res://Levels/l_1bg.tscn<>uid://cbp6rxd7s65n2::::res://Pixel Adventure 1/Free/Terrain/Terrain (16x16).png<>uid://bc70h2rb5bmo::::res://Collectables/cherry.tscn<>res://Levels/Timer.gd<>res://Levels/Time.gd<>res://Levels/Total Cherries.gd<>res://Levels/Cherries Collected.gd<>res://Levels/Level.gd<>uid://bwjpng0s8bwdo::::res://pause_menu.tscn
+level_1.gd::GDScript::-1::1714282257::0::1::::<>Node2D<>::
+level_1.tscn::PackedScene::7592496803686309223::1714282258::0::1::::<><>::res://Levels/level_1.gd<>uid://dkt1gh63hx1nr::::res://Player/player.tscn<>uid://s700p77xsqvu::::res://Levels/l_1bg.tscn<>uid://cbp6rxd7s65n2::::res://Pixel Adventure 1/Free/Terrain/Terrain (16x16).png<>uid://bc70h2rb5bmo::::res://Collectables/cherry.tscn<>res://Levels/Timer.gd<>res://Levels/Time.gd<>res://Levels/Total Cherries.gd<>res://Levels/Cherries Collected.gd<>res://Levels/Level.gd<>uid://bwjpng0s8bwdo::::res://pause_menu.tscn
 level_2.gd::GDScript::-1::1714260866::0::1::::<>Node2D<>::
-level_2.tscn::PackedScene::6319745998405039759::1714281772::0::1::::<><>::res://Levels/level_2.gd<>uid://cbp6rxd7s65n2::::res://Pixel Adventure 1/Free/Terrain/Terrain (16x16).png<>uid://dkt1gh63hx1nr::::res://Player/player.tscn<>uid://bc70h2rb5bmo::::res://Collectables/cherry.tscn<>uid://b2dwvd3gb87qb::::res://Levels/l_2_bg.tscn<>res://Levels/Timer.gd<>res://Levels/Time.gd<>res://Levels/Total Cherries.gd<>res://Levels/Cherries Collected.gd<>uid://bwjpng0s8bwdo::::res://pause_menu.tscn<>res://Levels/Level.gd
+level_2.tscn::PackedScene::6319745998405039759::1714282258::0::1::::<><>::res://Levels/level_2.gd<>uid://cbp6rxd7s65n2::::res://Pixel Adventure 1/Free/Terrain/Terrain (16x16).png<>uid://dkt1gh63hx1nr::::res://Player/player.tscn<>uid://bc70h2rb5bmo::::res://Collectables/cherry.tscn<>uid://b2dwvd3gb87qb::::res://Levels/l_2_bg.tscn<>res://Levels/Timer.gd<>res://Levels/Time.gd<>res://Levels/Total Cherries.gd<>res://Levels/Cherries Collected.gd<>uid://bwjpng0s8bwdo::::res://pause_menu.tscn<>res://Levels/Level.gd
 level_3.gd::GDScript::-1::1714260866::0::1::::<>Node2D<>::
-level_3.tscn::PackedScene::1658885218382422201::1714281772::0::1::::<><>::res://Levels/level_3.gd<>uid://cbp6rxd7s65n2::::res://Pixel Adventure 1/Free/Terrain/Terrain (16x16).png<>uid://dkt1gh63hx1nr::::res://Player/player.tscn<>uid://bc70h2rb5bmo::::res://Collectables/cherry.tscn<>uid://y6shj74wqlen::::res://Levels/l_3_bg.tscn<>res://Levels/Timer.gd<>res://Levels/Time.gd<>res://Levels/Total Cherries.gd<>res://Levels/Cherries Collected.gd<>res://Levels/Level.gd<>uid://bwjpng0s8bwdo::::res://pause_menu.tscn
+level_3.tscn::PackedScene::1658885218382422201::1714282258::0::1::::<><>::res://Levels/level_3.gd<>uid://cbp6rxd7s65n2::::res://Pixel Adventure 1/Free/Terrain/Terrain (16x16).png<>uid://dkt1gh63hx1nr::::res://Player/player.tscn<>uid://bc70h2rb5bmo::::res://Collectables/cherry.tscn<>uid://y6shj74wqlen::::res://Levels/l_3_bg.tscn<>res://Levels/Timer.gd<>res://Levels/Time.gd<>res://Levels/Total Cherries.gd<>res://Levels/Cherries Collected.gd<>res://Levels/Level.gd<>uid://bwjpng0s8bwdo::::res://pause_menu.tscn
 level_4.gd::GDScript::-1::1714260866::0::1::::<>Node2D<>::
-level_4.tscn::PackedScene::4120499906672294489::1714281773::0::1::::<><>::res://Levels/level_4.gd<>uid://cbp6rxd7s65n2::::res://Pixel Adventure 1/Free/Terrain/Terrain (16x16).png<>uid://dkt1gh63hx1nr::::res://Player/player.tscn<>uid://bc70h2rb5bmo::::res://Collectables/cherry.tscn<>res://Levels/Timer.gd<>res://Levels/Time.gd<>res://Levels/Total Cherries.gd<>res://Levels/Cherries Collected.gd<>uid://cjd0mcn74ssns::::res://Levels/l_4_bg.tscn<>res://Levels/Level.gd<>uid://bwjpng0s8bwdo::::res://pause_menu.tscn
+level_4.tscn::PackedScene::4120499906672294489::1714282258::0::1::::<><>::res://Levels/level_4.gd<>uid://cbp6rxd7s65n2::::res://Pixel Adventure 1/Free/Terrain/Terrain (16x16).png<>uid://dkt1gh63hx1nr::::res://Player/player.tscn<>uid://bc70h2rb5bmo::::res://Collectables/cherry.tscn<>res://Levels/Timer.gd<>res://Levels/Time.gd<>res://Levels/Total Cherries.gd<>res://Levels/Cherries Collected.gd<>uid://cjd0mcn74ssns::::res://Levels/l_4_bg.tscn<>res://Levels/Level.gd<>uid://bwjpng0s8bwdo::::res://pause_menu.tscn
 level_5.gd::GDScript::-1::1714260866::0::1::::<>Node2D<>::
-level_5.tscn::PackedScene::5424198289894800467::1714281773::0::1::::<><>::res://Levels/level_5.gd<>uid://cbp6rxd7s65n2::::res://Pixel Adventure 1/Free/Terrain/Terrain (16x16).png<>uid://dkt1gh63hx1nr::::res://Player/player.tscn<>uid://bc70h2rb5bmo::::res://Collectables/cherry.tscn<>res://Levels/Timer.gd<>res://Levels/Time.gd<>res://Levels/Total Cherries.gd<>res://Levels/Cherries Collected.gd<>res://Levels/Level.gd<>uid://dbjd8yk0n5s0e::::res://Levels/l_5_bg.tscn<>uid://bwjpng0s8bwdo::::res://pause_menu.tscn
+level_5.tscn::PackedScene::5424198289894800467::1714282259::0::1::::<><>::res://Levels/level_5.gd<>uid://cbp6rxd7s65n2::::res://Pixel Adventure 1/Free/Terrain/Terrain (16x16).png<>uid://dkt1gh63hx1nr::::res://Player/player.tscn<>uid://bc70h2rb5bmo::::res://Collectables/cherry.tscn<>res://Levels/Timer.gd<>res://Levels/Time.gd<>res://Levels/Total Cherries.gd<>res://Levels/Cherries Collected.gd<>res://Levels/Level.gd<>uid://dbjd8yk0n5s0e::::res://Levels/l_5_bg.tscn<>uid://bwjpng0s8bwdo::::res://pause_menu.tscn
 level_6.gd::GDScript::-1::1714260866::0::1::::<>Node2D<>::
-level_6.tscn::PackedScene::9139796268894062199::1714281773::0::1::::<><>::res://Levels/level_6.gd<>uid://cbp6rxd7s65n2::::res://Pixel Adventure 1/Free/Terrain/Terrain (16x16).png<>uid://dkt1gh63hx1nr::::res://Player/player.tscn<>uid://bc70h2rb5bmo::::res://Collectables/cherry.tscn<>res://Levels/Timer.gd<>res://Levels/Time.gd<>res://Levels/Total Cherries.gd<>res://Levels/Cherries Collected.gd<>uid://dipj61swrlx7l::::res://Levels/l_6_bg.tscn<>res://Levels/Level.gd<>uid://bwjpng0s8bwdo::::res://pause_menu.tscn
+level_6.tscn::PackedScene::9139796268894062199::1714282259::0::1::::<><>::res://Levels/level_6.gd<>uid://cbp6rxd7s65n2::::res://Pixel Adventure 1/Free/Terrain/Terrain (16x16).png<>uid://dkt1gh63hx1nr::::res://Player/player.tscn<>uid://bc70h2rb5bmo::::res://Collectables/cherry.tscn<>res://Levels/Timer.gd<>res://Levels/Time.gd<>res://Levels/Total Cherries.gd<>res://Levels/Cherries Collected.gd<>uid://dipj61swrlx7l::::res://Levels/l_6_bg.tscn<>res://Levels/Level.gd<>uid://bwjpng0s8bwdo::::res://pause_menu.tscn
 level_7.gd::GDScript::-1::1714260866::0::1::::<>Node2D<>::
-level_7.tscn::PackedScene::5759953220113329681::1714281773::0::1::::<><>::res://Levels/level_7.gd<>uid://cbp6rxd7s65n2::::res://Pixel Adventure 1/Free/Terrain/Terrain (16x16).png<>uid://dkt1gh63hx1nr::::res://Player/player.tscn<>uid://bc70h2rb5bmo::::res://Collectables/cherry.tscn<>res://Levels/Timer.gd<>res://Levels/Time.gd<>res://Levels/Total Cherries.gd<>res://Levels/Cherries Collected.gd<>res://Levels/Level.gd<>uid://doo7j20ut1c26::::res://Levels/l_7_bg.tscn<>uid://bwjpng0s8bwdo::::res://pause_menu.tscn
+level_7.tscn::PackedScene::5759953220113329681::1714282259::0::1::::<><>::res://Levels/level_7.gd<>uid://cbp6rxd7s65n2::::res://Pixel Adventure 1/Free/Terrain/Terrain (16x16).png<>uid://dkt1gh63hx1nr::::res://Player/player.tscn<>uid://bc70h2rb5bmo::::res://Collectables/cherry.tscn<>res://Levels/Timer.gd<>res://Levels/Time.gd<>res://Levels/Total Cherries.gd<>res://Levels/Cherries Collected.gd<>res://Levels/Level.gd<>uid://doo7j20ut1c26::::res://Levels/l_7_bg.tscn<>uid://bwjpng0s8bwdo::::res://pause_menu.tscn
 lose.gd::GDScript::-1::1714252340::0::1::::<>Node2D<>::
-lose.tscn::PackedScene::6537758792138195372::1714281774::0::1::::<><>::res://Levels/lose.gd<>uid://cjd0mcn74ssns::::res://Levels/l_4_bg.tscn<>uid://dl53u1tyuu0bp::::res://SFX/Confirm 1.wav<>uid://d10spfho5tjka::::res://SFX/Select 1.wav
-l_1bg.tscn::PackedScene::1331022682050669214::1714281772::0::1::::<><>::res://L1BG.gd<>uid://dpli1t3056s3b::::res://Pixel Adventure 1/Free/Background/Green.png
+lose.tscn::PackedScene::6537758792138195372::1714282259::0::1::::<><>::res://Levels/lose.gd<>uid://cjd0mcn74ssns::::res://Levels/l_4_bg.tscn<>uid://dl53u1tyuu0bp::::res://SFX/Confirm 1.wav<>uid://d10spfho5tjka::::res://SFX/Select 1.wav
+l_1bg.tscn::PackedScene::1331022682050669214::1714282257::0::1::::<><>::res://L1BG.gd<>uid://dpli1t3056s3b::::res://Pixel Adventure 1/Free/Background/Green.png
 l_2_bg.gd::GDScript::-1::1714063351::0::1::::<>ParallaxBackground<>::
-l_2_bg.tscn::PackedScene::4289086071794877305::1714281772::0::1::::<><>::uid://cw2g4kory47fy::::res://Pixel Adventure 1/Free/Background/Blue.png<>res://Levels/l_2_bg.gd
-l_3_bg.tscn::PackedScene::1749633887607321921::1714281773::0::1::::<><>::res://Levels/l_2_bg.gd<>uid://cgwdk6mr4a1cc::::res://Pixel Adventure 1/Free/Background/Yellow.png
-l_4_bg.tscn::PackedScene::5412273574359266996::1714281773::0::1::::<><>::res://Levels/l_2_bg.gd<>uid://db14jjirrnhoh::::res://Pixel Adventure 1/Free/Background/Purple.png
-l_5_bg.tscn::PackedScene::7248272653843940862::1714281773::0::1::::<><>::res://Levels/l_2_bg.gd<>uid://hffupoq80t15::::res://Pixel Adventure 1/Free/Background/Gray.png
-l_6_bg.tscn::PackedScene::7752341673476749135::1714281773::0::1::::<><>::res://Levels/l_2_bg.gd<>uid://jrpvwl85h6gx::::res://Pixel Adventure 1/Free/Background/Brown.png
+l_2_bg.tscn::PackedScene::4289086071794877305::1714282258::0::1::::<><>::uid://cw2g4kory47fy::::res://Pixel Adventure 1/Free/Background/Blue.png<>res://Levels/l_2_bg.gd
+l_3_bg.tscn::PackedScene::1749633887607321921::1714282258::0::1::::<><>::res://Levels/l_2_bg.gd<>uid://cgwdk6mr4a1cc::::res://Pixel Adventure 1/Free/Background/Yellow.png
+l_4_bg.tscn::PackedScene::5412273574359266996::1714282258::0::1::::<><>::res://Levels/l_2_bg.gd<>uid://db14jjirrnhoh::::res://Pixel Adventure 1/Free/Background/Purple.png
+l_5_bg.tscn::PackedScene::7248272653843940862::1714282259::0::1::::<><>::res://Levels/l_2_bg.gd<>uid://hffupoq80t15::::res://Pixel Adventure 1/Free/Background/Gray.png
+l_6_bg.tscn::PackedScene::7752341673476749135::1714282259::0::1::::<><>::res://Levels/l_2_bg.gd<>uid://jrpvwl85h6gx::::res://Pixel Adventure 1/Free/Background/Brown.png
 l_7_bg.tscn::PackedScene::8172767624167952637::1714149209::0::1::::<><>::res://Levels/l_2_bg.gd<>uid://b6t4be3qd7t6c::::res://Pixel Adventure 1/Free/Background/Pink.png
 Next Level.gd::GDScript::-1::1714070078::0::1::::<>Label<>::
 ready.gd::GDScript::-1::1714252387::0::1::::<>Node2D<>::
-ready.tscn::PackedScene::3754230719894703553::1714281773::0::1::::<><>::res://Levels/ready.gd<>res://Levels/Next Level.gd<>res://Levels/Time Remaining.gd<>uid://s700p77xsqvu::::res://Levels/l_1bg.tscn<>uid://bedmkamemp0o4::::res://SFX/Fruit collect 1.wav<>uid://dl53u1tyuu0bp::::res://SFX/Confirm 1.wav
+ready.tscn::PackedScene::3754230719894703553::1714282258::0::1::::<><>::res://Levels/ready.gd<>res://Levels/Next Level.gd<>res://Levels/Time Remaining.gd<>uid://s700p77xsqvu::::res://Levels/l_1bg.tscn<>uid://bedmkamemp0o4::::res://SFX/Fruit collect 1.wav<>uid://dl53u1tyuu0bp::::res://SFX/Confirm 1.wav
 Time Remaining.gd::GDScript::-1::1714070338::0::1::::<>Label<>::
 Time.gd::GDScript::-1::1714061571::0::1::::<>Label<>::
 Timer.gd::GDScript::-1::1714140471::0::1::::<>Timer<>::
 Total Cherries.gd::GDScript::-1::1714061731::0::1::::<>Label<>::
 win.gd::GDScript::-1::1714252340::0::1::::<>Node2D<>::
-win.tscn::PackedScene::1419477214724521874::1714281773::0::1::::<><>::res://Levels/win.gd<>res://Levels/Time Remaining.gd<>uid://doo7j20ut1c26::::res://Levels/l_7_bg.tscn<>uid://bedmkamemp0o4::::res://SFX/Fruit collect 1.wav<>uid://dl53u1tyuu0bp::::res://SFX/Confirm 1.wav<>uid://d10spfho5tjka::::res://SFX/Select 1.wav
+win.tscn::PackedScene::1419477214724521874::1714282259::0::1::::<><>::res://Levels/win.gd<>res://Levels/Time Remaining.gd<>uid://doo7j20ut1c26::::res://Levels/l_7_bg.tscn<>uid://bedmkamemp0o4::::res://SFX/Fruit collect 1.wav<>uid://dl53u1tyuu0bp::::res://SFX/Confirm 1.wav<>uid://d10spfho5tjka::::res://SFX/Select 1.wav
 ::res://Music/::1714258663
 Running Action.mp3::AudioStreamMP3::4835196997557290107::1714258414::1714258663::1::::<><>::
 ::res://Pixel Adventure 1/::1713808127
@@ -389,9 +389,9 @@ Idle 1 (44x26).png::CompressedTexture2D::3826710539773055608::1713808104::171380
 Idle 2 (44x26).png::CompressedTexture2D::7336908351647943806::1713808104::1713808128::1::::<><>::
 Spikes in (44x26).png::CompressedTexture2D::7628368005878436485::1713808104::1713808128::1::::<><>::
 Spikes out (44x26).png::CompressedTexture2D::9026569372043756571::1713808104::1713808128::1::::<><>::
-::res://Player/::1714281771
+::res://Player/::1714282257
 player.gd::GDScript::-1::1714244614::0::1::::<>CharacterBody2D<>::
-player.tscn::PackedScene::7901963438196988827::1714281771::0::1::::<><>::res://Player/player.gd<>uid://cret4ntiwjygq::::res://Pixel Adventure 1/Free/Main Characters/Virtual Guy/Double Jump (32x32).png<>uid://ip7lgq1y3oay::::res://Pixel Adventure 1/Free/Main Characters/Virtual Guy/Fall (32x32).png<>uid://b3ned6v44q0xj::::res://Pixel Adventure 1/Free/Main Characters/Virtual Guy/Hit (32x32).png<>uid://5rkndv6805k6::::res://Pixel Adventure 1/Free/Main Characters/Virtual Guy/Idle (32x32).png<>uid://c0j3af585hrty::::res://Pixel Adventure 1/Free/Main Characters/Virtual Guy/Jump (32x32).png<>uid://dqoj0ponwxs4c::::res://Pixel Adventure 1/Free/Main Characters/Virtual Guy/Wall Jump (32x32).png<>uid://bbb161icgiekg::::res://Pixel Adventure 1/Free/Main Characters/Virtual Guy/Run (32x32).png<>uid://bty7wlsa46tkj::::res://SFX/Jump 1.wav<>uid://bedmkamemp0o4::::res://SFX/Fruit collect 1.wav
+player.tscn::PackedScene::7901963438196988827::1714282257::0::1::::<><>::res://Player/player.gd<>uid://cret4ntiwjygq::::res://Pixel Adventure 1/Free/Main Characters/Virtual Guy/Double Jump (32x32).png<>uid://ip7lgq1y3oay::::res://Pixel Adventure 1/Free/Main Characters/Virtual Guy/Fall (32x32).png<>uid://b3ned6v44q0xj::::res://Pixel Adventure 1/Free/Main Characters/Virtual Guy/Hit (32x32).png<>uid://5rkndv6805k6::::res://Pixel Adventure 1/Free/Main Characters/Virtual Guy/Idle (32x32).png<>uid://c0j3af585hrty::::res://Pixel Adventure 1/Free/Main Characters/Virtual Guy/Jump (32x32).png<>uid://dqoj0ponwxs4c::::res://Pixel Adventure 1/Free/Main Characters/Virtual Guy/Wall Jump (32x32).png<>uid://bbb161icgiekg::::res://Pixel Adventure 1/Free/Main Characters/Virtual Guy/Run (32x32).png<>uid://bty7wlsa46tkj::::res://SFX/Jump 1.wav<>uid://bedmkamemp0o4::::res://SFX/Fruit collect 1.wav
 ::res://SFX/::1714241749
 Cancel 1.wav::AudioStreamWAV::984941920344692279::1714240808::1714240808::1::::<><>::
 Confirm 1.wav::AudioStreamWAV::7995007851471391157::1714240797::1714240798::1::::<><>::
